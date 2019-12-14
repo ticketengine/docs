@@ -14,7 +14,7 @@ In this tab you can mange the basic event details.
 ![alt text][event_details]
 
 Field | Description
---- | ---
+:--- | :---
 Name | Name of the event.
 Description | Event description.
 Time frame | Start and end of the event.
@@ -30,7 +30,7 @@ Groups can be used to allocate inventory to specific customers.
 ![alt text][capacity_details]
 
 Field | Description
---- | ---
+:--- | :---
 Location | Name of the group.
 Capacity | Total available inventory in the group.
 
@@ -41,7 +41,7 @@ The access tab is used to define one or more access types. An access type descri
 ![alt text][accesss_details]
 
 Field | Description
---- | ---
+:--- | :---
 Name | Name of the access type.
 Description | Description of the access type.
 Access to locations | Capacity groups where customer should get access to. If more than one group is added the allocation strategy will issue access for the first group (in supplied order) where there is available capacity. If the first capacity group is sold out access will be issued from the next capacity group.
