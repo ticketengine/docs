@@ -53,7 +53,7 @@ Conditions | The conditions a customer has to pass to be eligible te get access 
 The conditions consist of a tree of nested conditions. A customer has access to an event if he or she passes at least a single path in the condition tree successfully. 
 
 Condition | Description
---- | ---
+:--- | :---
 If | Add a new condition group.
 Price | Defines the price a customer has to pay to be granted access.
 Free entry | Customer does not have to pay to be granted access. 
@@ -67,7 +67,7 @@ Current date |
 All conditions have the same basic setup. You fill out a value and choose an operator like "contains" or "Greater then" to complete the condition. Except for the price condition, there are the following configuration option available:
 
 Option | Description
---- | ---
+:--- | :---
 Name | The name of the price condition.
 Currency | Price currency.
 Amount | The amount that need to be paid.
