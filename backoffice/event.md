@@ -36,7 +36,7 @@ Capacity | Total available inventory in the group.
 
 
 ## Access
-The access tab is used to define one or more access types. An access type described where a customer has access to and under what conditions a customer can access the event.  
+The access tab is used to define one or more access types. An access type describes where a customer has access to and under what conditions a customer can access the event.  
 
 ![alt text][accesss_details]
 
@@ -44,10 +44,10 @@ Field | Description
 --- | ---
 Name | Name of the access type.
 Description | Description of the access type.
-Access to locations | Capacity groups where customer should get access to. If more than one group is added the allocation strategy will issue access for the first group (in supplied order) where there is available capacity.
-Use limit | The number of times access can be used at the door of the venue.
+Access to locations | Capacity groups where customer should get access to. If more than one group is added the allocation strategy will issue access for the first group (in supplied order) where there is available capacity. If the first capacity group is sold out access will be issued from the next capacity group.
+Use limit | The number of times the access can be used at the door of the venue.
 Tags | Access type tags. 
-Conditions | The conditions a customer has to pass to be able te get access to an event.
+Conditions | The conditions a customer has to pass to be eligible te get access to an event.
 
 ### Conditions
 The conditions consist of a tree of nested conditions. A customer has access to an event if he or she passes at least a single path in the condition tree successfully. 
@@ -64,6 +64,16 @@ Customer with tag |
 Birth date | Customers who's birth date is.
 Current date | 
 
+All conditions have the same basic setup. You fill out a value and choose an operator like "contains" or "Greater then" to complete the condition. Except for the price condition, there are the following configuration option available:
+Option | Description
+--- | ---
+Name | The name of the price condition.
+Currency | Price currency.
+Amount | The amount that need to be paid.
+Tag | De tag of the price, for reporting purposes.
+Tax | The amount of tax that applies to the price.
+Postponed | Until when the customer has to pay the due amount.
+Limit | The maximum number of times that this price condition may be used.
 
 ## Attendees
 The attendee tab shows a list of all customers who have access to the event.
