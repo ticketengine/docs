@@ -65,6 +65,7 @@ Birth date | Customers who's birth date is.
 Current date | 
 
 All conditions have the same basic setup. You fill out a value and choose an operator like "contains" or "Greater then" to complete the condition. Except for the price condition, there are the following configuration option available:
+
 Option | Description
 --- | ---
 Name | The name of the price condition.
