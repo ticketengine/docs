@@ -37,7 +37,7 @@ TicketEngineShoppingCart({
 
 Option  | Optional | Description | Default
 :--- | :--- | :--- | :---
-el | False | Container element where cart or price list is rendered. | null
+el | False | Css selector of the container element where cart or price list is rendered. | null
 authUrl | True | Url of the Ticket Engine oAuth2 server. | https://auth.ticketengine.io
 adminApiUrl | True | Admin API url. | https://admin-api.ticketengine.io
 graphApiUrl | True | Graph API url. | https://graph-api.ticketengine.io
