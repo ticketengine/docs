@@ -2,6 +2,16 @@
 
 The Ticket Engine Shopping Cart library renders a shopping cart or price list in a container element. If a eventId is supplied in the config object then the price list for the event will be rendered. Otherwise it will render the shopping cart content. 
 
+The Ticket Engine Shopping Cart has 2 states:
+1. Price list
+2. Cart
+
+The price list state renders a price list for an event. If the eventId option is supplied in the config object the price list state will be rendered. 
+
+The cart state renders an overview of all tickets currently in the cart. This state will be rendered id no eventId option is supplied. 
+
+
+
 ## Usage
 
 1. Include the following script in the ```<body>``` above any other JavaScript in your checkout page:  
