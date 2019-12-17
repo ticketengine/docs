@@ -16,12 +16,12 @@ The cart state renders an overview of all tickets currently in the cart. This st
 
 1. Include the following script in the ```<body>``` above any other JavaScript in your checkout page:  
 ```html
-<script type="application/javascript" src="http://www.ticketengine.nl/resources/shopping-cart/v1/cart.js"></script>
+<script type="application/javascript" src="https://www.ticketengine.nl/resources/shopping-cart/v1/cart.js"></script>
 ```
 
 2. Use the following CSS file:
 ```html
-<link rel=stylesheet type=text/css href=http://www.ticketengine.nl/resources/shopping-cart/v1/te-shopping-cart.css>
+<link rel=stylesheet type=text/css href=https://www.ticketengine.nl/resources/shopping-cart/v1/te-shopping-cart.css>
 ```
 
 3. Add shopping cart container element. for example:
