@@ -21,7 +21,7 @@ The cart state renders an overview of all tickets currently in the cart. This st
 
 2. Use the following CSS file:
 ```html
-<link rel=stylesheet type=text/css href=https://www.ticketengine.nl/resources/shopping-cart/v1/te-shopping-cart.css>
+<link rel=stylesheet type=text/css href=https://www.ticketengine.nl/resources/shopping-cart/v1/cart.css>
 ```
 
 3. Add shopping cart container element. for example:
