@@ -60,6 +60,7 @@ Free entry | Customer does not have to pay to be granted access.
 Number of items in cart | 
 Cart total value | 
 Sales channel | The sales channel through which the order is placed.
+Coupon of type | Type of coupon customer must have entered.
 Customer with tag |  
 Birth date | Customers who's birth date is.
 Current date | 

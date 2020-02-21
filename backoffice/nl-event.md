@@ -58,6 +58,7 @@ Free entry | Gratis toegang voor een bezoeker.
 Number of items in cart | Het aantal items in de winkelwagen
 Cart total value | De totale waarde van de winkelwagen
 Sales channel | Het verkoop kanaal waar via de order is geplaatst.
+Coupon of type | Type coupon die klant ingevuld moet hebben.
 Customer with tag |  
 Birth date | De geboordedatum van de bezoeker.
 Current date | 
