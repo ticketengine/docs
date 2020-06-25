@@ -69,19 +69,25 @@ quantity | Quantity
 addToCart | Add to cart
 change | Change
 cancel | Cancel
+cancelOrder | Cancel order
 save | Save
 totalPrice | Total
 checkout | Checkout
+reserve | Reserve
 paymentMethod | Payment method
 pay | Pay
-email | pay |  
-emailPlaceholder | Enter your email address
+free | Free
+email | Email
+emailPlaceholder | my.email@example.com
 orderNotFound | Order not found.
 orderTimeout | Order timeout.
 orderCanceled | Order canceled.
 orderCompleted | Order completed.
+orderReserved | Order reserved.
+noItems | Order is empty.
+pendingItems | Order has unconfirmed tickets.
 paymentProcessing | Payment is processing.
-loading | Loading...
 noPrices | No prices found for event.
+loading | Loading...
 
 
