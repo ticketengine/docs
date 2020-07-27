@@ -83,7 +83,7 @@ We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde d
 ![alt text][scenario-early-bird-2]
 - Kies voor een "Current date" conditie.
 - Selecteer "Is less-then" en kies een datum tot wanneer de "Early bird" verkoop loopt. Als het goed is ziet het er dan zo uit: 
-![alt text][condition-price-from]
+![alt text][scenario-early-bird-3]
 
 
 [add-access]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/add-access.png "Add access"
@@ -97,3 +97,4 @@ We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde d
 [scenario-vrienden-coupon-4]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon4.png "Coupon details"
 [scenario-early-bird-1]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-early-bird-1.png "Coupon details"
 [scenario-early-bird-2]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-early-bird-2.png "Coupon details"
+[scenario-early-bird-3]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-early-bird-3.png "Coupon details"
