@@ -77,10 +77,13 @@ We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde d
 
 - Klik het plus icoontje onderaan om een nieuwe prijs toe te voegen.
 ![alt text][scenario-vrienden-coupon-3]
-- Kies voor "Price" en vul de prijs in en een naam voor het tarief, bijvoorbeeld "Vrienden".
+- Kies voor "Price" en vul de prijs in en een naam voor het tarief, bijvoorbeeld "Early bird".
 ![alt text][condition-add-new-price]
-- Klik het plus icoontje naast de "Vrienden" prijs om een nieuwe conditie aan de prijs toe te voegen.
-![alt text][scenario-vrienden-coupon-4]
+- Klik het plus icoontje naast de "Early bird" prijs om een nieuwe conditie aan de prijs toe te voegen.
+![alt text][scenario-early-bird-2]
+- Kies voor een "Current date" conditie.
+- Selecteer "Is less-then" en kies een datum tot wanneer de "Early bird" verkoop loopt. Als het goed is ziet het er dan zo uit: 
+![alt text][condition-price-from]
 
 
 [add-access]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/add-access.png "Add access"
@@ -92,4 +95,5 @@ We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde d
 [scenario-vrienden-coupon-2]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon2.png "Coupon details"
 [scenario-vrienden-coupon-3]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon3.png "Coupon details"
 [scenario-vrienden-coupon-4]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon4.png "Coupon details"
-[scenario-vrienden-coupon-5]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon5.png "Coupon details"
+[scenario-early-bird-1]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-early-bird-1.png "Coupon details"
+[scenario-early-bird-2]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-early-bird-2.png "Coupon details"
