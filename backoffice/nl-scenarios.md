@@ -99,6 +99,7 @@ We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde d
 [scenario-vrienden-coupon-2]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon2.png "Coupon details"
 [scenario-vrienden-coupon-3]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon3.png "Coupon details"
 [scenario-vrienden-coupon-4]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon4.png "Coupon details"
+[scenario-vrienden-coupon-5]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon5.png "Coupon details"
 [scenario-early-bird-1]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-early-bird-1.png "Coupon details"
 [scenario-early-bird-2]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-early-bird-2.png "Coupon details"
 [scenario-early-bird-3]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-early-bird-3.png "Coupon details"
