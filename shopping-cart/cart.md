@@ -86,7 +86,7 @@ orderCompleted | Order completed.
 orderReserved | Order reserved.
 noItems | Order is empty.
 pendingItems | Order has unconfirmed tickets.
-paymentProcessing | Payment is processing.
+paymentProcessing | Processing payment.
 noPrices | No prices found for event.
 loading | Loading...
 
