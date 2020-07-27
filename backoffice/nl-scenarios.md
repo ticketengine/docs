@@ -29,6 +29,7 @@ We hebben nu een toegang met een reguliere prijs. Maar we moeten er voor zorgen 
 - Kies voor een "Current date" conditie.
 ![alt text][new-condition-current-date]
 - Selecteer "Is greater-then or equal to" en kies een datum vanaf wanneer de reguliere verkoop start. Als het goed is ziet het er dan zo uit: 
+
 ![alt text][condition-price-from]
 
 We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde datum. Nu moeten we een tarief aanmaken die met een coupon kan worden aangeschaft
@@ -41,6 +42,7 @@ We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde d
 ![alt text][scenario-vrienden-coupon-4]
 - Kies voor "Coupon of type".
 - Selecteer "Contains" en kies vervolgens de aangemaakte coupon die ingevuld moet worden. Als het goed is zien de condities er dan als volgt uit:
+
 ![alt text][scenario-vrienden-coupon-5]
 - Klik op "Save" onderaan de pagina om de access op slaan.  
 
@@ -71,6 +73,7 @@ We hebben nu een toegang met een reguliere prijs. Maar we moeten er voor zorgen 
 - Kies voor een "Current date" conditie.
 ![alt text][new-condition-current-date]
 - Selecteer "Is greater-then or equal to" en kies een datum vanaf wanneer de reguliere verkoop start. Als het goed is ziet het er dan zo uit: 
+
 ![alt text][condition-price-from]
 
 We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde datum. Nu moeten we het "Early bird" tarief aanmaken.
@@ -82,7 +85,8 @@ We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde d
 - Klik het plus icoontje naast de "Early bird" prijs om een nieuwe conditie aan de prijs toe te voegen.
 ![alt text][scenario-early-bird-2]
 - Kies voor een "Current date" conditie.
-- Selecteer "Is less-then" en kies een datum tot wanneer de "Early bird" verkoop loopt. Als het goed is ziet het er dan zo uit: 
+- Selecteer "Is less-then" en kies een datum tot wanneer de "Early bird" verkoop loopt. Als het goed is ziet het er dan zo uit:
+ 
 ![alt text][scenario-early-bird-3]
 
 
