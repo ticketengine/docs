@@ -3,7 +3,7 @@
 
 
 ## Selecte groep klanten mag eerder kopen d.m.v. een coupon code
-Het is mogelijk om een bepaalde groep klanten (bijvoorbeeld vrienden van het festival of theater) eerder de mogelijkheid te geven om kaarten te kopen voor een voorstelling. Je kan deze mogelijkheid bieden door deze groep klanten een coupon code te geven.
+Het is mogelijk om een bepaalde groep klanten (bijvoorbeeld vrienden van het festival of theater) eerder de mogelijkheid te geven om kaarten te kopen voor een voorstelling. Je kan deze mogelijkheid bieden door deze groep klanten een coupon code te geven. De overige klanten kunnen vanaf een bepaalde datum pas een kaartje kopen.
 
 Bij dit scenario ga we er van uit dat er al een voorstelling en een coupon zijn aangemaakt.
 
@@ -11,20 +11,43 @@ Bij dit scenario ga we er van uit dat er al een voorstelling en een coupon zijn 
  
 [Hoe maak ik een coupon aan?](https://github.com/ticketengine/docs/blob/master/backoffice/nl-coupons.md)  
 
+### Scenario overzicht
+- Vrieden kunnen eerder een kaartje kopen d.m.v. een coupon code.
+- Regulier publiek kan een kaartje kopen vanaf een bepaalde datum.
 
-1. Ga naar de event pagina en klik op de access tab.
-2. Voeg een nieuw access type toe.
-3. Als het goed is daar nu een prijs Regulier
+### Hoe richt je het scenario in?
+- Ga naar de event pagina en klik op de access tab.
+- Voeg een nieuw access type toe.
+![alt text][add-access]
+- Vul de access gegevens in en vul bij condities de reguliere prijs in.
+![alt text][new-access] 
+
+We hebben nu een toegang met een reguliere prijs. Maar we moeten er voor zorgen dat deze reguliere verkoop pas vanaf een bepaalde datum beschikbaar is.
+
+- Klik op het plus icoontje naast de "Reguliere" prijs om een extra conditie voor deze prijs toe te voegen.
 ![alt text][scenario-vrienden-coupon-2]
+- Kies voor een "Current date" conditie.
+- Selecteer "Is greater-then or equal to" en kies een datum vanaf wanneer de reguliere verkoop start. 
+
+ We hebben nu een reguliere prijs die gekocht kan worden vanaf een vastgestelde datum. Nu moeten we een tarief aanmaken die met een coupon kan worden aangeschaft
+
+- Klik het plus icoontje onderaan om een nieuwe prijs toe te voegen.
+![alt text][scenario-vrienden-coupon-3]
+- Kies voor "Price" en vul de prijs in en een naam voor het tarief, bijvoorbeeld "Vrienden".
+- Klik het plus icoontje naast de "Vrienden" prijs om een nieuwe conditie aan de prijs toe te voegen.
+![alt text][scenario-vrienden-coupon-4]
+- Kies voor "Coupon of type".
+- Selecteer "Contains" en kies vervolgens de aangemaakte coupon die ingevuld moet worden.
+
+Als het goed is zien de condities er dan als volgt uit:
+![alt text][scenario-vrienden-coupon-5]
 
 
 
 
 
-
-
-
-
+[add-access]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/add-access.png "Add access"
+[new-access]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/new-access.png "New access"
 [scenario-vrienden-coupon-1]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon1.png "Coupon details"
 [scenario-vrienden-coupon-2]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon2.png "Coupon details"
 [scenario-vrienden-coupon-3]: https://raw.githubusercontent.com/ticketengine/docs/master/assets/scenario-vrienden-coupon3.png "Coupon details"
