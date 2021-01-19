@@ -58,6 +58,7 @@ registerId | False |  | null
 customerId | True |  | null
 language | True | Language settings object, see description below | null
 onAddedToCart | True | Call back function that will be called when a ticket is added to the cart. | null 
+onFinishedCartOperation | True | Call back function that will be called when a cart operation (add or remove ticket) is finished. Callback will be called with a order object. | ({order}) => {} 
 
 
 ### Language
