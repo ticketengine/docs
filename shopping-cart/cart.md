@@ -56,6 +56,7 @@ eventId | True | If eventId is supplied price list will be rendered else render 
 salesChannelId | False |  | null 
 registerId | False |  | null
 customerId | True |  | null
+defaultQuantity | True | Default pre filled quantity per price | 0
 language | True | Language settings object, see description below | null
 onAddedToCart | True | Call back function that will be called when a ticket is added to the cart. | null 
 onFinishedCartOperation | True | Call back function that will be called when a cart operation (add or remove ticket) is finished. Callback will be called with a order object. | ({order}) => {} 
