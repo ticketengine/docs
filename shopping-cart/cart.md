@@ -35,7 +35,7 @@ The cart state renders an overview of all tickets currently in the cart. This st
 TicketEngineShoppingCart({
     el: '#cart',
     username: '<CART-USERNAME>',
-    eventId: '<EVENT_UUID>',
+    eventId: '<EVENT-UUID>',
     salesChannelId: '<SALES-CHANNEL-UUID>',
     registerId: '<REGISTER-UUID>'
 });
@@ -78,6 +78,9 @@ totalPrice | Total
 checkout | Checkout
 reserve | Reserve
 paymentMethod | Payment method
+creditPayment | Payment
+accountTokenLabel | Enter your account for payment of
+accountTokenPlaceholder | Enter your account.
 pay | Pay
 free | Free
 email | Email
