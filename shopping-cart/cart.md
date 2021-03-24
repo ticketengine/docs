@@ -92,8 +92,16 @@ orderCompleted | Order completed.
 orderReserved | Order reserved.
 noItems | Order is empty.
 pendingItems | Order has unconfirmed tickets.
+pendingItemsPleaseWait | Order has pending order line items. One moment please.
 paymentProcessing | Processing payment.
-noPrices | No prices found for event.
+noPrices | No prices found.
+noCapacity | No capacity available for event.
 loading | Loading...
+tokenLabel | Enter your coupon code
+tokenPlaceholder | Coupon code
+tokenAddedLabel | Added coupons:
+validatingToken | Validating coupon
+accountTokenLabel | Enter your account for payment of
+accountTokenPlaceholder | Enter your account.
 
 
