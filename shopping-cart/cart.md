@@ -100,6 +100,7 @@ loading | Loading...
 tokenLabel | Enter your coupon code
 tokenPlaceholder | Coupon code
 tokenAddedLabel | Added coupons:
+addToken | Add:
 validatingToken | Validating coupon
 accountTokenLabel | Enter your account for payment of
 accountTokenPlaceholder | Enter your account.
