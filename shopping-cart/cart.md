@@ -57,6 +57,8 @@ salesChannelId | False |  | null
 registerId | False |  | null
 customerId | True |  | null
 defaultQuantity | True | Default pre filled quantity per price | 0
+disablePaymentMethodSelection | True | Disable payment method selection | false
+disableCartEditing | True | Disable the change cart content on checkout | false
 language | True | Language settings object, see description below | null
 onAddedToCart | True | Call back function that will be called when a ticket is added to the cart. | null 
 onFinishedCartOperation | True | Call back function that will be called when a cart operation (add or remove ticket) is finished. Callback will be called with a order object. | ({order}) => {} 
@@ -104,5 +106,6 @@ addToken | Add:
 validatingToken | Validating coupon
 accountTokenLabel | Enter your account for payment of
 accountTokenPlaceholder | Enter your account.
+selectTimeSlot | Select a time slot
 
 
