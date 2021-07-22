@@ -18,6 +18,10 @@ The cart state renders an overview of all tickets currently in the cart. This st
 ```html
 <script type="application/javascript" src="https://www.ticketengine.nl/resources/shopping-cart/v1/cart.js"></script>
 ```
+It is also possible to load the javascript async. For loading async use
+```html
+<script type="application/javascript" src="https://www.ticketengine.nl/resources/shopping-cart/v1/cart-async.js"></script>
+```
 
 2. Use the following CSS file:
 ```html
@@ -40,6 +44,13 @@ TicketEngineShoppingCart({
     registerId: '<REGISTER-UUID>'
 });
 </script>
+```
+
+When loading the javascript async you can use the following event listener 
+```js
+document.addEventListener("TicketEngineShoppingCartLoaded", () => {
+
+});
 ```
 
 
