@@ -118,5 +118,16 @@ validatingToken | Validating coupon
 accountTokenLabel | Enter your account for payment of
 accountTokenPlaceholder | Enter your account.
 selectTimeSlot | Select a time slot
+notComing | I'm not coming
+numberOfPeople | Please indicate with how many people you wish to come?
+remark | Remark
+remarkPlaceholder | Type your remark here
+confirmInvitation | Confirm
+invitationNotFound | Invitation not found
+invitationExpired | Invitation expired
+invitationProcessing | Processing invitation response   
+invitationCanceled | Invitation rejected
+invitationCompleted | Invitation confirmed
+
 
 
