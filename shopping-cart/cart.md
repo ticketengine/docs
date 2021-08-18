@@ -71,8 +71,10 @@ defaultQuantity | True | Default pre filled quantity per price | 0
 disablePaymentMethodSelection | True | Disable payment method selection | false
 disableCartEditing | True | Disable the change cart content on checkout | false
 language | True | Language settings object, see description below | null
+locale | True | Locale for date formatting | en
 onAddedToCart | True | Call back function that will be called when a ticket is added to the cart. | null 
 onFinishedCartOperation | True | Call back function that will be called when a cart operation (add or remove ticket) is finished. Callback will be called with a order object. | ({order}) => {} 
+orderCompleted | True | Call back function that will be called when order is completed. Will only be called in case there is no redirect to payment service provider. | ({order}) => {} 
 onLoad | True | Call back function that will be called when a cart is loaded. Callback will be called with a order object. | ({order}) => {} 
 
 
@@ -122,12 +124,19 @@ notComing | I'm not coming
 numberOfPeople | Please indicate with how many people you wish to come?
 remark | Remark
 remarkPlaceholder | Type your remark here
+offer | You might also want
 confirmInvitation | Confirm
 invitationNotFound | Invitation not found
 invitationExpired | Invitation expired
 invitationProcessing | Processing invitation response   
 invitationCanceled | Invitation rejected
 invitationCompleted | Invitation confirmed
-
-
+orderNotFound | No order found.
+customerNotFound | No customer found.
+salesChannelNotFound | No sales channel found.
+registerNotFound | No register found.
+noPreferredLanguageSet | No preferred language code found.
+retryAttemptsExceeded | Retry attempts exceeded.
+couldNotAddItems | Could not add items to cart.
+createPaymentFailed | Create payment failed.
 
