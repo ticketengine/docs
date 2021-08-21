@@ -70,6 +70,7 @@ customerId | True |  | null
 defaultQuantity | True | Default pre filled quantity per price | 0
 disablePaymentMethodSelection | True | Disable payment method selection | false
 disableCartEditing | True | Disable the change cart content on checkout | false
+clearOrderCacheOnFinalState | True | Clear the order cache when an order is in a final state | false
 language | True | Language settings object, see description below | null
 locale | True | Locale for date formatting | en
 onAddedToCart | True | Call back function that will be called when a ticket is added to the cart. | null 
@@ -131,6 +132,7 @@ invitationExpired | Invitation expired
 invitationProcessing | Processing invitation response   
 invitationCanceled | Invitation rejected
 invitationCompleted | Invitation confirmed
+emptyCart | Shopping cart is empty.
 orderNotFound | No order found.
 customerNotFound | No customer found.
 salesChannelNotFound | No sales channel found.
