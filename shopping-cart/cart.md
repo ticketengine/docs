@@ -142,3 +142,9 @@ retryAttemptsExceeded | Retry attempts exceeded.
 couldNotAddItems | Could not add items to cart.
 createPaymentFailed | Create payment failed.
 
+### Window events
+This event is fired when the cart receives updated order data.
+```js
+document.addEventListener("TicketEngineOrderUpdate", () => {
+
+});
