@@ -67,6 +67,7 @@ eventId | True | If eventId is supplied price list will be rendered else render 
 salesChannelId | False |  | null 
 registerId | False |  | null
 customerId | True |  | null
+orderId | True |  | null
 defaultQuantity | True | Default pre filled quantity per price | 0
 disablePaymentMethodSelection | True | Disable payment method selection | false
 disableCartEditing | True | Disable the change cart content on checkout | false
