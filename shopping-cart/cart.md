@@ -112,7 +112,7 @@ pendingItems | Order has unconfirmed tickets.
 pendingItemsPleaseWait | Order has pending order line items. One moment please.
 paymentProcessing | Processing payment.
 noPrices | No prices found.
-noCapacity | No capacity available for event.
+noCapacity | Sold out.
 loading | Loading...
 tokenLabel | Enter your coupon code
 tokenPlaceholder | Coupon code
