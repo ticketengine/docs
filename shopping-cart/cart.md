@@ -151,3 +151,8 @@ document.addEventListener("TicketEngineOrderUpdate", () => {
 });
 ```
 
+Dispatch document event to flush the cart content
+```js
+document.dispatchEvent(new CustomEvent('TicketEngineCartFlush'));
+```
+
