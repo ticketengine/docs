@@ -78,7 +78,7 @@ onAddedToCart | True | Call back function that will be called when a ticket is a
 onFinishedCartOperation | True | Call back function that will be called when a cart operation (add or remove ticket) is finished. Callback will be called with a order object. | ({order}) => {} 
 orderCompleted | True | Call back function that will be called when order is completed. Will only be called in case there is no redirect to payment service provider. | ({order}) => {} 
 onLoad | True | Call back function that will be called when a cart is loaded. Callback will be called with a order object. | ({order}) => {} 
-
+onOrderLoaded | True | Call back function that will be called when a order object is updated. Callback will be called with a order object.                           | ({order}) => {}
 
 ### Language
 Option  | Default
@@ -149,3 +149,9 @@ This event is fired when the cart receives updated order data.
 document.addEventListener("TicketEngineOrderUpdate", () => {
 
 });
+```
+
+Dispatch document event to flush the cart content
+```js
+document.dispatchEvent(new CustomEvent('TicketEngineCartFlush'));
+```
