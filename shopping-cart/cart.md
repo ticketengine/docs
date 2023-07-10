@@ -79,6 +79,8 @@ onFinishedCartOperation | True | Call back function that will be called when a c
 orderCompleted | True | Call back function that will be called when order is completed. Will only be called in case there is no redirect to payment service provider. | ({order}) => {} 
 onLoad | True | Call back function that will be called when a cart is loaded. Callback will be called with a order object. | ({order}) => {} 
 onOrderLoaded | True | Call back function that will be called when a order object is updated. Callback will be called with a order object.                           | ({order}) => {}
+onFinishedAddingToCart | True | Call back function that will be called when a adding item is finished. | ({order, addItems}) => {} 
+onFinishedCartChange | True | Call back function that will be called when a adding item is finished. | ({order, addItems, removeItems}) => {} 
 
 ### Language
 Option  | Default
